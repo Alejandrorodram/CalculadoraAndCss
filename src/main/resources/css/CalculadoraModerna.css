@@ -1,0 +1,93 @@
+.root {
+	-fx-background-color: #000000;
+	-fx-font-family: monospace;
+	-fx-hgap: 5px;
+	-fx-vgap: 5px;
+	-fx-padding: 5px;
+}
+
+.text-field {
+	-fx-text-fill: #cdc6bF;
+	-fx-alignment: center-right;
+	-fx-font-size: 25px;
+	-fx-font-weight: bold;
+	-fx-padding: 10px;
+	-fx-background-color: transparent;
+	-fx-background-insets: 0;
+}
+
+
+.button {
+	-fx-font-size: 16px;
+	-fx-background-radius: 50;
+	-fx-background-insets: 0px;
+	
+}
+
+.button:focused {
+	-fx-border-color: #FFFFFF;
+}
+
+.button:armed {
+	-fx-border-color: #DBDD3A;
+}
+
+.numericButtons {
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #5B6262;
+}
+
+.numericButtons:hover {
+	-fx-text-fill: #5B6262;
+	-fx-background-color: #FFFFFF;
+}
+
+.numericButtons:pressed {
+	-fx-text-fill: #697777;
+	-fx-background-color: #000000;
+}
+
+
+.resetButtons{
+	-fx-text-fil: #000000;
+	-fx-background-color: #697777;
+}
+
+.resetButtons:hover{
+	-fx-background-color: #FFFFFF;
+}
+
+.resetButtons:pressed {
+	-fx-text-fill: #697777;
+	-fx-background-color: #697777;
+}
+
+
+.operationButtons{
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #e98c2f;
+}
+
+.operationButtons:hover{
+	-fx-background-color: #bd752e;
+}
+
+.operationButtons:hover:default{
+	-fx-background-color: #dd5836;
+}
+
+.operationButtons:pressed{
+	-fx-text-fill: #e98c2f;
+	-fx-background-color: #FFFFFF;
+}
+
+.operationButtonsEqual{
+	-fx-background-color: #be4143;
+}
+
+.operationButtonsEqual:default{
+	-fx-background-color: #be4143;
+}	
+
+
+
